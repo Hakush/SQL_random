@@ -1,0 +1,12 @@
+//Primero que nada se necesita un programa como mySQL Workbench o una pagina como phpMyAdmin
+
+//Instalacion Linux
+
+https://www.youtube.com/watch?v=7_YrwTOPl9w
+
+
+//Descargar Un servidor de base de datos por ej. xamp (Linux y Windows) o wamp (Windows)
+
+//iniciar apache y mysql en XAMP, click en admin para ir a phpMyAdmin y crear nuestra base de datos, crear el servidor en mySQL workbench con todo default y con el nombre de la base de datos en el campo schema.
+
+//Una vez tengamos el DB creado, nos falta agregarle tablas, para esto usamos la herramienta de MySQL Workbench de diagramas para facilitar el proceso, una vez terminado el diagrama, como tiene errores para conectarlo automaticamente a la database ya creada, le damos en Forward engineer para que nos de el script SQL correspondiente al diagrama y eso lo ejecutamos (con algunas modificaciones para arreglar incompatibilidades) en la pestaña del workbench de nuestra DB local creada con xamp.
